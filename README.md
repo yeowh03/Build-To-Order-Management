@@ -45,7 +45,7 @@ The **HDB Management System** is a role-based simulation of Singapore’s Build-
 
 ## 🧠 System Architecture
 
-### 🧱 Layered Structure (MVC + Repository)
+### 🧱 Layered Structure (EBC + Repository)
 - **Entity Layer**: Applicant, Officer, Manager, Project, etc.
 - **Controller Layer**: Logic for each role (e.g. `OfficerController`, `ProjectController`)
 - **Menu Layer (Boundary)**: CLI for interaction (e.g. `ApplicantMenu`, `ManagerMenu`)
